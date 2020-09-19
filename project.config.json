@@ -1,98 +1,109 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"enhance": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true,
-		"coverView": true,
-		"autoAudits": false,
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		}
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.10.3",
-	"appid": "wx5f4796ed0742846d",
-	"projectname": "EasyQuestionnaire-MiniProgram",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"gamePlugin": {
-			"current": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": [
-				{
-					"id": -1,
-					"name": "pages/profile/profile",
-					"pathName": "pages/profile/profile",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 1,
-					"name": "pages/complete/complete",
-					"pathName": "pages/complete/complete",
-					"query": "qid=15840024747252362",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/success/success",
-					"pathName": "pages/success/success",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "pages/analysis/analysis",
-					"pathName": "pages/analysis/analysis",
-					"query": "qid=15840024747252362",
-					"scene": null
-				},
-				{
-					"id": 4,
-					"name": "pages/detailAnalysis/detailedAnalysis",
-					"pathName": "pages/detailedAnalysis/detailedAnalysis",
-					"query": "pid=15840024764976294",
-					"scene": null
-				}
-			]
-		}
-	}
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.10.3",
+  "appid": "wx516a36317c95cc92",
+  "projectname": "EasyQuestionnaire-MiniProgram",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/profile/profile",
+          "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "pages/complete/complete",
+          "pathName": "pages/complete/complete",
+          "query": "qid=15840024747252362",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/success/success",
+          "pathName": "pages/success/success",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "pages/analysis/analysis",
+          "pathName": "pages/analysis/analysis",
+          "query": "qid=15840024747252362",
+          "scene": null
+        },
+        {
+          "id": 4,
+          "name": "pages/detailAnalysis/detailedAnalysis",
+          "pathName": "pages/detailedAnalysis/detailedAnalysis",
+          "query": "pid=15840024764976294",
+          "scene": null
+        }
+      ]
+    }
+  }
 }
